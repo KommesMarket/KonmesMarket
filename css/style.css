@@ -1,0 +1,256 @@
+body{
+  margin: 0;
+}
+.Napp-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+/* ----------------------------------------- */
+#TitreJKM{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;    
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    font-size: 4em;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: lighter;
+  }
+  
+  .jumboJKM{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+  }
+  .menu1{
+    list-style-type: none;
+    margin: 0;
+    padding: 20 10;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background-color:lightslategray;
+
+}
+.tex{
+  display: block;
+  color: aqua;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 25px;
+
+}
+.tex:hover{
+  background-color: #282c34;
+}
+  .jumboslide{
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    height:300px;
+    width: 100%;
+  }
+  
+  
+ 
+  .Jumbo-Author{
+    color: grey;
+    font-family: 'Quicksand', sans-serif;
+    font-style: italic;
+    text-align: end;
+    padding-right: 30%;
+    font-size: 12px;
+  }
+  
+  .ContainerJKM{
+  
+  background-color: #282c34;
+  padding: 20px;
+  width: 100%;
+
+  }
+  .cart{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .Containerslider{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background-color: aqua;
+    width: 100%;
+    }
+  
+  .ContainerJKM > h1{
+  color: grey;
+  font-family: 'Kaushan Script', cursive;
+  }
+ 
+/* ----------------------------------------- */
+.imageSLID{
+    height: 100%;
+    width: 100%;
+    }
+
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+
+/*-------------------------Partenaire--------------------------*/
+.pagePartenaire{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.partenaireTitle{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+}
+.partenaireContenair{
+  padding-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: lightslategray;
+  flex-direction: row;
+   padding-top: 50px;
+
+}
+.imgpart{
+  width: 10vw;
+}
+.buttonvp{
+  display: flex;
+  justify-content: center;
+  background-color: lightslategray;
+}
+.MyButton {
+
+  width: 150px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 100%;
+  background: #3366cc;
+  color: #fff;
+  border: 1px solid #3366cc;
+  border-radius: 10px;
+  }
+  input.MyButton:hover {
+  color: #ffff00;
+  background: #000;
+  border: 1px solid #fff;
+  }
+  /*----------------------------------Pied de page-----------------*/
+.footer {  
+  position: static; 
+  width: 100%;
+  padding: 1.53846em;
+  background-color:aqua;
+  color: #3B322C;   
+  display:block;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 0;
+  margin-top: 20px;
+
+
+
+}
+.footer-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+.white-text{
+  font-family: 'Kaushan Script', cursive;
+}
+
+.mentionlegal{
+  text-align: center;
+}
+.socialr{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+ text-align: center;
+ color: black;
+
+}
+.facebookr{  
+
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border-radius: 50%;
+
+ 
+}
+
+.facebookr:hover{
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+.mailr{  
+
+  width: 20px;
+  height: 20px;
+ color: #000;
+  border-radius: 50%;
+
+ 
+}
+.mail:hover{
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+  color: red;
+}
+.twitterr{
+  width: 20px;
+  height: 20px;
+  color: #000;
+  border-radius: 50%;
+  
+}
+.twitterr:hover{
+  width: 20px;
+  height: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: white;
+}
+.facebook:hover{  
+ width: 50px;
+ height: 50px;
+  color: blue;
+  
+ 
+}
+.twitter:hover{
+  width: 100px;
+  height: 100px;
+   color: rgb(13, 140, 172);
+   
+}
